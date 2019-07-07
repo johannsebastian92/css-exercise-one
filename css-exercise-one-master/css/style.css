@@ -1,0 +1,58 @@
+body {
+  font-size: 14px;
+}
+
+/* Fixed the broken CSS by adding the dash (-) between “background” and “color. And adding the closing curly brace */
+nav {
+  background-color: yellow;
+  height: 100px;
+  margin-top: -10px;
+  position: fixed;
+  width: 100%;
+}
+
+section {
+  margin: 0 auto;
+  width: 60%;
+}
+
+/* Added the dash (-) between “font” and “family” */
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+}
+
+.example, h3 {
+  padding-top: 30px;
+  text-align:center;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+}
+
+/* CSS was missing the (:) between “text” and “align”. Fixed by adding. */
+.example, h3 {
+  padding-top: 30px;
+  text-align: center
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+/* CSS was missing closing curly brace and the (:) between “margin” and “10px”. Fixed issue by adding both symbols. */
+.element {
+  background-color: green;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.element {
+  background-color: green;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
